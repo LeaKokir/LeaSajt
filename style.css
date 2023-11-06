@@ -1,0 +1,650 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.sve{
+    background-image: url(slike/ikonice/pross1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 52px;
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+}
+.logo img{
+    width: 130px;
+    height: 50px;
+}
+.nav{
+    width: 100%;
+    height: 52px;
+    background-color: rgb(221,221,221);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav li{
+   
+    display: inline;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+  
+}
+.nav li a{
+    padding: 5px;
+   
+    overflow: hidden;
+    list-style: none;
+    color:  #dd9511;
+    text-decoration: none;
+    font-family: 'Unbounded', cursive;
+    text-shadow: 3px 2px 6px rgba(23, 32, 36, .3);
+    border-right: 3px solid silver;
+    padding: 5px 20px;
+    transition: 0.6s ease-in-out;
+}
+
+.nav a:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+}
+
+.tekst {
+    padding: 5px;
+    width: 900px;
+    color: #cd8b0d;
+    position: absolute;
+    top: 240px;
+    right: 90px;
+    text-shadow: 1px 1px 2px orange;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Unbounded', cursive;
+}
+.tekst h2{
+    font-size: 70px;
+    text-align:right;
+    padding-right:130px ;
+    
+}
+.tekst .prvi{
+    
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  
+}
+.tekst h3{
+    font-size: 40px;
+    text-align:right;
+    padding-right:130px ;
+}
+.tekst .drugi{
+    font-size: 22px;
+    text-align: center;
+}
+.tekst .drugi1{
+    font-size: 22px;
+    text-align: center;
+}
+.treci{
+
+    width: 70%;
+   margin-top: 100px;
+    color: #c0810d;
+    border-bottom:2px solid rgb(210, 151, 22);
+    border-radius: 10px;
+    font-size: 40px;
+    text-align:center;
+}
+
+.kont img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+   
+}
+.kont .iko1{
+    left: 30%;
+}
+.kont .iko2{
+  left: 45%;
+}
+
+.anim2{
+    padding: 0px;
+    display: flex;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    animation-name: animacija;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes animacija {
+    0%{
+        left: 10%;
+    }
+    
+
+    100%{
+        left:70%;
+    }
+}
+
+
+@media screen and (min-width:300px)and (max-width:420px) {
+    .sve{
+        width: 100%;
+        height: 2200px;
+    }
+    .nav{
+        width: 100%;
+        height: 230px;
+        display: block;
+    }
+    .nav .logo{
+        display: block;
+        text-align: center;
+       padding-top: 10px;
+    }
+    .nav ul li{
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        padding: 0px;
+        text-align: right;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+ 
+    .tekst h2{
+        font-size: 35px ;
+    }
+    .tekst h3{
+        font-size: 35px ;
+    }
+    .tekst p, h2, h3{
+        text-shadow: none;
+        background-color: rgba(221, 221, 221, 0.8);
+        border-radius: 5px;
+   
+    }
+    .tekst{
+       
+        width: 90%;
+        position: absolute;
+        right: 5px;
+        text-align: center;
+        display: block;
+        margin-right: 10px;
+    }
+    
+    .tekst .prvi,
+    .tekst .drugi,
+    .tekst .treci{
+     font-size: 25px;
+    
+    }
+
+    .tekst .treci{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+        margin-bottom: 100px;
+     }
+     
+     
+    }    
+ @media screen and (min-width:421px) and (max-width:990px)
+    {
+     .sve{
+         width: 100%;
+         height: 1750px;
+     }
+     .nav{
+         width: 100%;
+         height: 230px;
+         display: block;
+     }
+     .nav .logo{
+         display: block;
+         text-align: center;
+        padding-top: 10px;
+     }
+     .nav ul li{
+         display: block;
+         width: 90%;
+         margin: 10px auto;
+         padding: 0px;
+         text-align: right;
+     }
+     nav li a{
+         font-size: 12px;
+         padding: 10px 10px;
+         margin: 5px;
+     }
+  
+     .tekst h2{
+         font-size: 35px ;
+     }
+     .tekst h3{
+         font-size: 35px ;
+     }
+     .tekst p, h2, h3{
+         text-shadow: none;
+         background-color: rgba(221, 221, 221, 0.8);
+         border-radius: 5px;
+    
+     }
+     .tekst{
+         width: 90%;
+         position: absolute;
+         right: 5px;
+         text-align: center;
+         display: block;
+     
+     }
+     
+     .tekst .prvi,
+     .tekst .drugi,
+     .tekst .treci{
+      font-size: 25px;
+     }
+ 
+     .tekst .treci{
+        
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: 18%;
+         margin-bottom: 100px;
+      }
+    }
+ 
+ 
+ 
+.sve1{
+    background-image: url(slike/ikonice/curibez.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 52px;
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    
+}
+.tekst2, .naslov1 h2, .tekst11, .tekst12{
+    font-family: 'Unbounded', cursive;
+}
+.tekst2{
+    margin-left: 20px;
+    padding: 5px;
+    width: 900px;
+    color: #cd8b0d;
+    position: absolute;
+    top: 230px;
+    right: 150px;
+    text-shadow: 1px 1px 2px orange;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.naslov1 h2{
+    font-size: 50px;
+    text-align:right;
+    padding-right:90px ;
+    text-shadow: 1px 2px 6px orange;
+    
+}
+.tekst2 p{
+    font-size: 21px;
+    text-align: right;
+}
+.tekst12{
+    margin-top: 100px;
+    font-size: 21px;
+    text-shadow: 1px 1px 2px orange;
+}
+.proizvodi{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    width: 330px;
+    height: 330px;
+}
+.proizvodi img{
+    width: 100%;
+    height: 100%;
+}
+.prva{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.prva:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+.proizvodi2{
+    position: relative;
+    top: 420px;
+    left: 50px;
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.proizvodi2 img{
+    width: 100%;
+    height: 100%;
+}
+.prva1{
+    position: relative;
+    top: -50px;
+}
+.proizvodi2 img:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+
+}
+
+.kont1 img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 40%;
+    }
+.kont1 .iko1{
+    left: 13%;
+}
+.kont1 .iko2{
+  left: 18%;
+}
+
+.sve2{
+
+    background-image: url(slike/ikonice/curibez.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 52px;
+    width: 100%;
+    height: 1500px;
+    
+}
+.galerija{ 
+    margin-left:50px ;
+    float: left;
+    padding: 15px;
+   margin-top: 40px;
+   position: absolute;
+   top: 200px;
+   width: 150px;
+}
+.galerija img{
+    width: 200px;
+    height: 300px;
+}
+.naziv{
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    color: #cd8b0d;
+}
+.naziv h1{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.naziv p {
+    text-shadow: 1px 1px 2px orange;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding-bottom: 110px ;
+}
+.galerija2{
+    display: block;
+    padding-left: 100px;
+    position: absolute;
+    top:100px;
+    left: 600px;
+  
+}
+
+.naziv2{
+    padding-left: 90px;
+    width: 400px;
+    position: absolute;
+    top: -10px;
+    left: 230px;
+    color: #cd8b0d;
+}
+.naziv2 h1{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.naziv2 p {
+    text-shadow: 1px 1px 2px orange;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding-bottom: 50px ;
+}
+
+.kont2 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom:-500px;
+}
+.kont2 .iko1{
+    left: 40%;
+}
+.kont2 .iko2{
+  left: 55%;
+}
+
+.anim{
+   display: flex;
+    width: 15%;
+    height: 15%;
+    position: relative;
+    right: 60%;
+    top: 0%;
+    animation-name: animacija;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes animacija {
+    0%{
+        left: 10%;
+    }
+    
+
+    100%{
+        left:70%;
+    }
+}
+
+.anim1{
+   display: flex;
+   
+    width: 16%;
+    height: 16%;
+    position: relative;
+    right: 60%;
+    bottom: -60%;
+    animation-name: animacija;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes animacija {
+    0%{
+        left: 10%;
+    }
+    
+
+    100%{
+        left:70%;
+    }
+}
+
+.sve3{
+    background-image: url(slike/ikonice/curibez.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 52px;
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+
+}
+
+.kontakt{ 
+    background-image: url(slike/ikonice/logque.png);
+    background-size: 240px 370px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 60%;
+    height: 50%;
+    border: 2px solid gray;
+    position: absolute ;
+    top: 13%;
+    left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -5px 8px;
+    border-radius: 10px;
+}
+.deo1{
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    color: #cd8b0d;
+    background-color: rgba(186, 186, 186, 0.452);
+    height: 50px;
+    width:fit-content;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin: 5px 100px;
+    display: flex;
+    align-items: center;
+    position: center;
+  
+}
+.deo1 input[type=text], textarea{
+    padding-left: 10px;
+}
+.deo1 label{
+    padding-right: 5px;
+}
+.kontakt h2{
+    margin-left: 200px;
+   color: #cd8b0d;
+    text-shadow:2px 2px 3px #f0eeea ;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.kontakt .deo1 input, textarea
+{
+    background-color: rgb(199, 198, 198);
+   border-radius: 20px;
+   width: 350px;
+}
+.kontakt textarea{
+    resize: none;
+}
+.dugme1 input{
+    color: #cd8b0d;
+    background-color: silver;
+    border: 1px solid grey;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Unbounded', cursive;
+    margin-top: 20px;
+   margin-left: 500px;
+}
+
+.dugme1 input:hover {
+    color: black;
+    background-color: grey;
+}
+.kontakt .deo1 input:focus{
+    background-color: white;
+}
+.kontakt .deo1 textarea:focus{
+    background-color: whitesmoke;
+}
+.kont3 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+}
+.kont3 .iko3{
+    left: 40%;
+}
+.kont3 .iko4{
+  left: 55%;
+}
+
+#saznaj {
+    display: flex;
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+     border-radius: 4px;
+    background-color: #da8d00;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+#tabela{
+    border: 1px solid #cd8b0d;
+    color: rgb(221, 144, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    bottom: 5%;
+    right:30%;
+}
+#pitanje {
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    bottom: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dotted #dd9511;
+
+}
+#klizeci {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    width: 300px;
+    color: #cd8b0d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
