@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 let naslov1 = document.getElementById ("naslov1");
 function boja(x){
     if (x==1){
