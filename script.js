@@ -1,7 +1,6 @@
-'use strict';
 let naslov1 = document.getElementById ("naslov1");
 function boja(x){
-    if (x==1){
+    if (x == 1){
         naslov1.style.color = "brown";
         naslov1.style.transform = "scale(1.5)";
         
@@ -14,21 +13,21 @@ function boja(x){
 
 let label = document.getElementById("pitanje")
 function boje(y){
-    if (y=='jedan'){
+    if (y == 'jedan'){
         label.style.backgroundColor = "silver";
         label.style.borderRadius = "50px";
     }
-    else if (y=='dva'){
+    else if (y == 'dva'){
         label.style.backgroundColor = "none";
         label.style.borderRadius = "none";
     }
 }
 
 function pitanje(x){ 
-    if (x=='da'){
+    if (x == 'da'){
         alert ("Tacan odgovor! Med je zdraviji od secera!");
-    }
-    else if (x=='ne'){
+    } 
+    else if (x == 'ne'){
         alert ("Netacan odgovor! Med sadrzi puno vitamina i minerala!");
     }
 }
@@ -54,7 +53,7 @@ function podatak() {
     let email = forma.email1.value;
     ime = ime.toUpperCase();
     email = email.toLowerCase();
-    if(ime.length<3 || ime.length>15)
+    if(ime.length < 3 || ime.length > 15)
     {
         alert ("Ime moze sadrzati izmedju 3 i 15 karaktera");
     }
